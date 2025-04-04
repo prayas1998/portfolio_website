@@ -1,0 +1,37 @@
+Tech Stack Overview
+The portfolio website is built using the following technologies:
+
+React: JavaScript library for building user interfaces
+TypeScript: Typed superset of JavaScript for better development experience
+Tailwind CSS: Utility-first CSS framework for styling
+React Router: For handling navigation
+React Query: For data fetching (though not heavily utilized in this project)
+Lucide React: Icon library
+Key Files and Components
+src/context/ThemeContext.tsx: Manages the application theme (light/dark) state and provides theme-toggling functionality throughout the app.
+
+src/components/ThemeToggle.tsx: UI component to switch between light and dark modes.
+
+src/components/Navbar.tsx: Fixed top navigation with links to different sections and mobile-responsive menu.
+
+src/components/Hero.tsx: Landing section with your introduction.
+
+src/components/Skills.tsx: Displays your skills categorized into groups with icons.
+
+src/components/Projects.tsx: Showcases your projects with descriptions.
+
+src/components/Experience.tsx: Lists your work experience.
+
+src/components/Education.tsx: Presents your educational background.
+
+src/components/Contact.tsx: Contact information and inquiry form.
+
+src/components/Footer.tsx: Bottom section with copyright and additional links.
+
+src/index.css: Global styles, theme variables, and utility classes including animations and dark mode styles.
+
+tailwind.config.ts: Configuration for Tailwind CSS, including theme extensions and custom animations.
+
+src/pages/Index.tsx: Main page that composes all components and implements the scroll animation observer.
+
+src/lib/utils.ts: Utility functions, particularly the cn function for combining class names.
