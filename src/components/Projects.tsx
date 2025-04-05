@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -51,7 +50,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-12">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="section-heading">Projects</h2>

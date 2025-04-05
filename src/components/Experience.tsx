@@ -1,4 +1,3 @@
-
 import { Briefcase } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -24,7 +23,7 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-24">
+    <section id="experience" className="py-12">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="section-heading">Work Experience</h2>

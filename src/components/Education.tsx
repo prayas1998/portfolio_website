@@ -1,4 +1,3 @@
-
 import { GraduationCap, Building2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -37,7 +36,7 @@ export default function Education() {
   ];
 
   return (
-    <section id="education" className="py-24 bg-secondary/30">
+    <section id="education" className="py-12 bg-secondary/30">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="section-heading">Education</h2>

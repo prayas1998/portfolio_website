@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -56,7 +55,7 @@ export default function AIProjects() {
   };
 
   return (
-    <section id="ai-projects" className="py-24 bg-background/50">
+    <section id="ai-projects" className="py-12 bg-background/50">
       <div className="section-container">
         <div className="text-center mb-14">
           <h2 className="section-heading">Fun AI Projects</h2>

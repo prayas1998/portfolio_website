@@ -1,4 +1,3 @@
-
 import { LucideIcon, Code, Database, Server, Terminal, CheckCircle2, Book, Cpu, Layers, Rocket } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
@@ -19,6 +18,7 @@ export default function Skills() {
   const skills: Skill[] = [
     // Programming Languages
     { name: "Python", category: "Programming Languages", icon: Terminal },
+    { name: "SQL", category: "Programming Languages", icon: Database },
     { name: "Java", category: "Programming Languages", icon: Terminal },
     
     // Frameworks & Tools
@@ -30,6 +30,8 @@ export default function Skills() {
     { name: "LLMs", category: "Tools & Frameworks", icon: Book },
     { name: "Pandas", category: "Tools & Frameworks", icon: Layers },
     { name: "Bootstrap", category: "Tools & Frameworks", icon: Layers },
+    { name: "PostgreSQL", category: "Tools & Frameworks", icon: Database },
+    // { name: "SQL", category: "Tools & Frameworks", icon: Database },
     
     // General
     { name: "HTML", category: "General", icon: Code },
@@ -58,7 +60,7 @@ export default function Skills() {
   const orderedCategories = ["Programming Languages", "Tools & Frameworks", "General", "Soft Skills"];
 
   return (
-    <section id="skills" className="py-6 relative bg-secondary/30">
+    <section id="skills" className="py-10 relative bg-secondary/30">
       <div className="section-container">
         <div className="text-center mb-10">
           <h2 className="section-heading">Skills</h2>

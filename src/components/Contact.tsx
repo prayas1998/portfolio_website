@@ -1,10 +1,9 @@
-
 import ContactInfo from "./contact/ContactInfo";
 import ContactForm from "./contact/ContactForm";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-16 bg-secondary/30">
+    <section id="contact" className="py-12 bg-secondary/30">
       <div className="section-container">
         <div className="text-center mb-12">
           <h2 className="section-heading">Contact Me</h2>
