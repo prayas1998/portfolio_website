@@ -25,21 +25,21 @@ export default function AIProjects() {
       github: "https://github.com/prayas1998/flappy-bird-clone"
     },
     {
-      title: "Stock Market Calculator",
+      title: "Stock Market Tools and Brokerage Calculator (In progress)",
       description: "A brokerage calculator application for stock market investments with real-time data visualization",
       techStack: ["React", "TypeScript", "AI Code Generation", "Financial APIs"],
       projectType: "tool",
       link: "#",
-      github: "#"
+      github: "https://github.com/prayas1998/StockCalC-DjangoReact"
     },
     // Placeholder for future projects
-    {
-      title: "AI Web Assistant",
-      description: "An interactive web assistant built using large language models to help with common tasks",
-      techStack: ["Next.js", "LLM Integration", "Prompt Engineering", "Semantic Search"],
-      projectType: "web-app",
-      link: "#"
-    }
+    // {
+    //   title: "AI Web Assistant",
+    //   description: "An interactive web assistant built using large language models to help with common tasks",
+    //   techStack: ["Next.js", "LLM Integration", "Prompt Engineering", "Semantic Search"],
+    //   projectType: "web-app",
+    //   link: "#"
+    // }
   ]);
 
   const getProjectIcon = (type: string) => {
@@ -59,7 +59,7 @@ export default function AIProjects() {
     <section id="ai-projects" className="py-24 bg-background/50">
       <div className="section-container">
         <div className="text-center mb-14">
-          <h2 className="section-heading">AI-Powered Projects</h2>
+          <h2 className="section-heading">Fun AI Projects</h2>
           <p className="text-foreground/70 mt-4 max-w-2xl mx-auto">
             Showcasing my experience using AI tools to build fun and functional web applications
           </p>
