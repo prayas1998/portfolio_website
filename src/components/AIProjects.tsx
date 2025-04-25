@@ -20,17 +20,17 @@ export default function AIProjects() {
       description: "A modern recreation of the classic Flappy Bird game built using AI pair programming techniques",
       techStack: ["JavaScript", "HTML Canvas", "AI-assisted Coding", "Game Physics"],
       projectType: "game",
-      link: "https://github.com/prayas1998/flappy-bird-clone",
+      link: "https://flappy-bird-clone-indol.vercel.app/",
       github: "https://github.com/prayas1998/flappy-bird-clone"
     },
-    {
-      title: "Stock Market Tools and Brokerage Calculator (In progress)",
-      description: "A brokerage calculator application for stock market investments with real-time data visualization",
-      techStack: ["React", "TypeScript", "AI Code Generation", "Financial APIs"],
-      projectType: "tool",
-      link: "#",
-      github: "https://github.com/prayas1998/StockCalC-DjangoReact"
-    },
+    // {
+    //   title: "TradeSmart - Stock Market Charges Calculator (In progress)",
+    //   description: "A brokerage calculator application for stock market investments with real-time data visualization",
+    //   techStack: ["React", "TypeScript", "AI Code Generation", "Financial APIs"],
+    //   projectType: "tool",
+    //   link: "https://stockcalc-frontend.vercel.app/",
+    //   github: "https://github.com/prayas1998/StockCalC-DjangoReact"
+    // },
     // Placeholder for future projects
     // {
     //   title: "AI Web Assistant",

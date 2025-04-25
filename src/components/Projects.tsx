@@ -15,7 +15,7 @@ export default function Projects() {
     {
       title: "Blog Web Application with Content Moderation",
       description: "A full-featured blog platform with AI-powered content moderation",
-      techStack: ["Django", "PostgreSQL", "AWS S3", "Supabase", "Hugging Face AI"],
+      techStack: ["Django", "PostgreSQL", "AWS S3", "Supabase", "Hugging Face", "Pre-trained AI models"],
       points: [
         "Implemented a robust user authentication system for secure access and account management",
         "Designed intuitive UI for post creation, updating, and deletion",
@@ -26,6 +26,21 @@ export default function Projects() {
         "Deployed the application on Render for reliable and scalable hosting"
       ],
       link: "https://django-blog-supabase.onrender.com",
+      github: "https://github.com/prayas1998/Django_blog_CS"
+    },
+    {
+      title: "TradeSmart - Stock Market Charges Calculator (In progress)",
+      description: "A brokerage calculator application for stock market investments with real-time data visualization",
+      techStack: ["React", "TypeScript", "Django,", "Python", "JWT", "Rest API", "Supabase", "Vercel", "Render", "PostgreSQL", "Lovable.dev", "Cursor IDE"],
+      points: [
+        "Engineered a full-stack application with JWT authentication implementing proactive token refresh, reducing authentication failures by 95%",
+        " Architected a modular calculation engine for multiple Indian brokers that allows integration of new brokers without modifying core code",
+        "Leveraged AI-assisted development tools (Cursor IDE, lovable.dev) to accelerate development by 40%, demonstrating adaptability with emerging technologies",
+        "Implemented custom React hooks and context-based state management, optimizing frontend performance and reducing unnecessary API calls",
+        "Deployed the application with frontend on Vercel and backend on Render with PostgreSQL, creating a production-ready architecture"
+      ],
+      link: "https://stockcalc-frontend.vercel.app/",
+      github: "https://github.com/prayas1998/StockCalC-DjangoReact"
     },
     {
       title: "Full Stack Flask Web Application",
@@ -38,7 +53,7 @@ export default function Projects() {
       github: "https://github.com/prayas1998/FlaskMarket_Full_Stack_Web_Application",
     },
     {
-      title: "Stock Market Movement",
+      title: "Stock Market Movement (Dissertation Project)",
       description: "Time series analysis to forecast stock values",
       techStack: ["Python", "Time Series Analysis", "Machine Learning"],
       points: [
